@@ -26,6 +26,7 @@ function renderBandMembers() {
     bandMembers.map(member => {
         const memberDiv = document.createElement("div")
         memberDiv.innerHTML = `
+        <img src=${member.image} class="member-pic" alt="${member.name}-pic"/>
         <h5>${member.name}</h5>
         <em>${member.instrument}</em>
         `

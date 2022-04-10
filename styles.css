@@ -35,5 +35,12 @@ h3 {
 }
 
 h5 {
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.member-pic {
+    height: 160px;
+    width: auto;
+    justify-content: center;
+    border-radius: 50%;
 }

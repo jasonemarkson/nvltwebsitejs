@@ -10,10 +10,16 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h1:hover {
+    transform: scale(1.45);
+    transition: 0.75s;
+    color: gainsboro
+}
+
 h3 {
     padding: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .member-card {
@@ -50,6 +56,11 @@ h5 {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
+.member-pic:hover {
+    transform: scale(1.35);
+
+}
+
 p {
     font-size: 20px;
     border: solid;
@@ -63,9 +74,21 @@ p {
 
 iframe {
     border: solid;
-
 }
 
 iframe:hover {
     color: gainsboro;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+}
+
+#welcome-pic {
+    background-image: image("IMG_6392.JPG");
+    background-position: top;
+    height: auto;
+    width: 500px;
 }

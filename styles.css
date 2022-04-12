@@ -28,6 +28,11 @@ h3 {
     background-color: gainsboro;
 }
 
+.member-card:hover {
+    transform: scale(1.45);
+    transition: 0.5s;
+}
+
 #band-members-div {
     display: flex;
     justify-content: center;
@@ -54,4 +59,13 @@ p {
     transition: 0.3s;
     margin: 50px;
     background-color: gainsboro;
+}
+
+iframe {
+    border: solid;
+
+}
+
+iframe:hover {
+    color: gainsboro;
 }

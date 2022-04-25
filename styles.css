@@ -37,9 +37,13 @@ h3 {
 
 /* horizontal navbar start */
 
-ul {
+#index {
     list-style-type: none;
     overflow: hidden;
+    border: solid;
+    background-color: chocolate;
+    padding: 10px;
+    /* display: inline-flex; */
 }
 
 li {
@@ -126,7 +130,16 @@ iframe:hover {
 
 #welcome-pic {
     background-image: image("IMG_6392.JPG");
-    background-position: top;
     height: auto;
     width: 500px;
 }
+
+/* #contact-form {
+    border: solid;
+    color: black;
+    background-color: chocolate;
+    position: absolute;
+    left: 150px;
+    padding: 8px;
+    text-align: left;
+} */

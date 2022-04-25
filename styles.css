@@ -22,6 +22,44 @@ h3 {
     font-size: 60px;
 }
 
+/* vertical navbar */
+/* #index {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    width: auto;
+} */
+
+/* li a {
+    width: 60px;
+} */
+
+/* horizontal navbar start */
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    padding: 28px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a {
+    color: black;
+}
+
+li:hover {
+    background-color: gainsboro;
+    transition: 0.3s;
+}
+
+/* horizontal navbar end */
+
 .member-card {
     border: solid;
     width: 100px;
